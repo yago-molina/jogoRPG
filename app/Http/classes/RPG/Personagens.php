@@ -4,9 +4,9 @@ namespace App\Http\classes\RPG;
 
 abstract class Personagens {
     
-    private string $nome;
-    private int $vida;
-    private int $forca;
+    protected string $nome;
+    protected int $vida;
+    protected int $forca;
 
     public function __construct(string $nome, int $vida, int $forca)
     {
