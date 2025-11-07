@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 800px;
+    margin-left: 780px;
     margin-top: 25px
 
 }
@@ -45,7 +45,7 @@
 }
 
 .titulo {
-    background-color: white;
+    border-size: 50px
     border-radius: 10px;
 }
 </style>
@@ -56,5 +56,6 @@
     <button class="btn">Novo Jogo</button>
     <button class="btn">Continuar Jogo</button>
     <button class="btn">Configurações</button>
+    <button class="btn">Créditos</button>
 </body>
 </html>
