@@ -7,23 +7,24 @@
     <title>Creditos</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     body {
         background-color: #3b3d40;
+        background: url(background.png) no-repeat center center/cover;
     }
-    
     h1 {
-            font-family: Arial, Helvetica, sans-serif;
-            display: block;
-            text-align: center;
-            color: #ca01ca ;
-            font-size: 60px;
-        }
+        text-align: center;
+        font-family: Caudex;
+        color: #ddcd5a;
+        line-height: 2.5;
+        font-size: 45px;}
 
     .btn {
-            width: 300px;
-            height: 100px;
+            width: 285px;
+            height: 90px;
             font-weight: bold;
-            font-size: 30px;
+            font-size: 25px;
             border: none;
             border-radius: 1000px;
             color: #ffffff;
@@ -31,7 +32,7 @@
             transition: all 0.4s ease-in-out;
             box-shadow: inset 0 0 20px #000;
             cursor: pointer;
-            background-color: #5d015d;
+            background-color: #000000;
             justify-content: center;
             align-items: center;
             display: flex;
@@ -40,10 +41,10 @@
         }
 
         .btn:hover {
-            background: #c300c3;
+            background: #f6b34f;
             color: #1d2834;
             transform: scale(1.1);
-            box-shadow: 0 0 20px #c300c3;
+            box-shadow: 0 0 20px #f6b34f;
         }
 
         .topo {
@@ -53,18 +54,18 @@
         }
 
         .textocredito {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Caudex;
             display: block;
             text-align: center;
-            color:  #ff00ffb1;
+            color:  #f6d575;
             font-size: 20px;
         }
 
         .texto {
             text-align: center;
-            color: #cbcbcb;
+            color: #e2e2e2;
             margin-top: 100px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Caudex;
             font-size: 25px;
         }
 
@@ -72,7 +73,7 @@
             text-align: center;
             color: #cbcbcb;
             margin-top: 50px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Caudex;
             font-size: 25px;
         }
 </style>

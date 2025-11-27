@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <title>A Lenda de Orion Batalha</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #ce8cea;
+            background: url(background.png) no-repeat center center/cover;
+        }
+
+        h1 {
+            color:white;
+            font-family: Cinzel Decorative;
         }
         #status, #inimigo-status {
             margin: 15px auto;
             padding: 10px;
             border: 2px solid #333;
-            width: 500px;
+            width: 300px;
             background-color: #fff;
             border-radius: 8px;
         }
@@ -29,6 +36,7 @@
             min-height: 60px;
             font-weight: bold;
             white-space: pre-line;
+            color: white;
         }
         #batalha {
             margin-top: 20px;
@@ -96,7 +104,7 @@
         let xpParaProximoNivel = 50;
 
         const inimigos = [
-            {nome: "Zumbi", vida: 50, dano: [3, 9], xp: 60, sprite: "zumbi.png"},
+            {nome: "Zumbi", vida: 50, dano: [3, 7], xp: 45, sprite: "zumbi.png"},
             {nome: "Esqueleto", vida: 80, dano: [8, 15], xp: 90, sprite: "esqueleto.png"},
         ];
 
@@ -123,8 +131,8 @@
                 nivel++;
                 xp -= xpParaProximoNivel;
                 xpParaProximoNivel = Math.floor(xpParaProximoNivel * 1.5);
-                vida += 20;
-                mana += 10;
+                vida += 30;
+                mana += 15;
                 document.getElementById('mensagens').textContent += `\nParabéns! Você subiu para o nível ${nivel}!`;
             }
         }
@@ -136,7 +144,7 @@
                 document.getElementById('mensagens').textContent += `\nUm ${inimigoAtual.nome} aparece!`;
                 atualizarStatus();
             } else {
-                document.getElementById('mensagens').textContent += "\nVocê derrotou todos os inimigos! 🏆";
+                document.getElementById('mensagens').textContent += "\nVocê derrotou todos os inimigos!";
             }
         }
 
@@ -214,7 +222,7 @@
             document.getElementById('mensagens').textContent += `\n${inimigoAtual.nome} atacou e causou ${dano} de dano!`;
             if (vida <= 0) {
                 vida = 0;
-                document.getElementById('mensagens').textContent += `\nVocê foi derrotado... 😢`;
+                document.getElementById('mensagens').textContent += `\nVocê foi derrotado...`;
             }
         }
 

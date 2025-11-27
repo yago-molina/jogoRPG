@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <title>A Lenda de Orion</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
         body {
             background-color: #3b3d40;
+            background: url(background.png) no-repeat center center/cover;
         }
         h1 {
             text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #ca01ca;
+            font-family: Cinzel Decorative;
+            color: #ddcd5a;
             line-height: 2.5;
             font-size: 60px;
         }
@@ -27,7 +29,7 @@
             transition: all 0.4s ease-in-out;
             box-shadow: inset 0 0 20px #000;
             cursor: pointer;
-            background-color: #5d015d;
+            background-color: #000000;
             justify-content: center;
             align-items: center;
             display: flex;
@@ -35,10 +37,10 @@
         }
 
         .btn:hover {
-            background: #c300c3;
+            background: #f6b34f;
             color: #1d2834;
             transform: scale(1.1);
-            box-shadow: 0 0 20px #c300c3;
+            box-shadow: 0 0 20px #f6b34f;
         }
 
         .titulo {
@@ -48,7 +50,7 @@
 </head>
 <body>
     <div class="titulo">
-        <h1>A Lenda de Orion</h1>
+        <h1>Ashes of the Eternal</h1>
     </div>
     
     <button id="btn-novo-jogo" class="btn">Novo Jogo</button>
