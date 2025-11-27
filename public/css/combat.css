@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Share+Tech&display=swap');
+
+body {
+    background-color: rgba( 39, 39, 39, 0.946);
+}
+
+.box1 {
+    position: relative ;
+    top: 100px;
+    left:75px;
+    font-size: 30px;
+    color: white;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(104, 103, 103);
+    padding-top: 10px;
+    padding-left: 7px;
+    border-radius: 30px;
+    font-family: "Ultra", serif;
+}
+
+.box2{
+    position: absolute;
+    top: 110px;
+    left: 800px;
+    font-size: 30px;
+    color: white;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(104, 103, 103);
+    padding-top: 10px;
+    padding-left: 7px;
+    border-radius: 30px;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,1 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Share+Tech&display=swap');
 
+body {
+    margin:0;
+    padding:0;
+    background-color: rgba(39, 39, 39, 0.946);
+    color: white;
+    font-family: "Share Tech", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: -20px;
+    font-size: 90px;
+    text-align: center;
+    color: rgb(60, 0, 255);
+    background-color: rgb(39, 39, 39, 0.946);
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(60, 0, 255);
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.button1 {
+    color: rgb(255, 221, 0); 
+    margin-top: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.button2 {
+    color: rgb(255, 221, 0);
+    margin-top: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: wavy;
+    background-color: rgb(255, 221, 0);
+    color: rgb(14, 0, 81);
+}
