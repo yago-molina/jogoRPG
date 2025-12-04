@@ -16,10 +16,6 @@ Route::get('/combat', function () {
     return view('combat');
 })->name('combat');
 
-Route::get('/config', function (){
-    return view('config');
-})->name('config');
-
 Route::get('/creditos', function () {
     return view('creditos');
 })->name('creditos');

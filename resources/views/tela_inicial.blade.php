@@ -56,7 +56,6 @@
     <button id="btn-novo-jogo" class="btn">Novo Jogo</button>
     
     <button id="btn-continuar-jogo" class="btn">Continuar Jogo</button>
-    <button id="btn-config" class="btn">Configurações</button>
     <button id="btn-creditos" class="btn">Créditos</button>
 
     <script>
@@ -70,12 +69,6 @@
         if (botaoContinuar) {
             botaoContinuar.addEventListener('click', function() {
                 window.location.href = "{{ route('combat') }}"; 
-            });
-        }
-        const botaoConfig = document.getElementById('btn-config');
-        if (botaoConfig) {
-            botaoConfig.addEventListener('click', function () {
-                window.location.href = " {{ route('config') }} "
             });
         }
         const botaoCreditos = document.getElementById('btn-creditos');
